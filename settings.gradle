@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':JMAndroidFramework',':JMAndroidFramework:JMJavaFramework'
 rootProject.name = "BMD"
