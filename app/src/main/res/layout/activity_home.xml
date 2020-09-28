@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_centerInParent="true"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Aset"
+                android:id="@+id/btnMenuAset"
+                />
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Persediaan"
+                android:id="@+id/btnMenuPersediaan"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Fitur Lainnya"
+                android:id="@+id/btnMenuFitur"
+                />
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Scan QR"
+                android:id="@+id/btnMenuScanQR"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>

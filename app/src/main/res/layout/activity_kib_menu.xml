@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".KIBMenuActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:layout_centerInParent="true"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            >
+            <com.thowo.jmandroidframework.component.JMAnTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                custom:text="KIB"
+                android:layout_span="2"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Tanah"
+                android:id="@+id/btnMenuKibA"
+                />
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Peralatan dan Mesin"
+                android:id="@+id/btnMenuKibB"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Bangunan dan Gedung"
+                android:id="@+id/btnMenuKibC"
+                />
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Jalan, Irigasi dan Jaringan"
+                android:id="@+id/btnMenuKibD"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="Aset Tetap Lainnya"
+                android:id="@+id/btnMenuKibE"
+                />
+            <com.thowo.jmandroidframework.component.JMAnVerticalButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                custom:text="KDP"
+                android:id="@+id/btnMenuKibF"
+                />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

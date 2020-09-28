@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".TestActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.thowo.jmandroidframework.component.JMAnEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minEms="12"
+            custom:text="500"
+            custom:params="Ya|Tidak"
+            custom:lookup="jimi|jeno|judith|joan"
+            />
+        <com.thowo.jmandroidframework.component.JMAnEditTextDouble
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minEms="12"
+            custom:text="jimi"
+            />
+        <com.thowo.jmandroidframework.component.JMAnEditTextInteger
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minEms="12"
+            custom:text="500"
+            />
+        <com.thowo.jmandroidframework.component.JMAnEditTextBoolean
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minEms="12"
+            custom:text="500"
+            custom:params="Ya|Tidak"
+            />
+        <com.thowo.jmandroidframework.component.JMAnEditTextDate
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minEms="12"
+            custom:text="500"
+            custom:params="TRUE|1"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
