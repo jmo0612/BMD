@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        >
+        <com.thowo.jmandroidframework.component.JMAnTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:id="@+id/tvKd"
+            android:text="kode"
+            android:gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+        <com.thowo.jmandroidframework.component.JMAnTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="5"
+            android:id="@+id/tvUrai"
+            android:text="urai"
+            android:layout_below="@id/tvKd"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+        <com.thowo.jmandroidframework.component.JMAnTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="6"
+            android:id="@+id/tvHarga"
+            android:text="harga"
+            android:gravity="right"
+            android:layout_below="@id/tvUrai"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

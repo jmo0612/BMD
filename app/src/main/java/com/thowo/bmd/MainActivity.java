@@ -24,7 +24,7 @@ public class MainActivity extends JMAnActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-        JMAnFunctions.startNewActivity(this,TestActivity.class);
+        JMAnFunctions.startNewActivity(this,ListInventarisActivity.class);
         this.finish();
     }
     private void init(){
@@ -32,7 +32,7 @@ public class MainActivity extends JMAnActivity {
         JMFunctions.setAsyncListener(new JMAnAsyncLoaderDefault(this));
         //File languageExcelFile=JMAnFunctions.copyResourceToFileDir(R.raw.jmlanguagepack,"jmlanguagepack.xls",false);
         JMAnFunctions.init();
-        //JMFunctions.setConnection(GitIgnoreDBConnection.mySQLConnection());
+        JMFunctions.setConnection(GitIgnoreDBConnection.mySQLConnection());
     }
 
 }
