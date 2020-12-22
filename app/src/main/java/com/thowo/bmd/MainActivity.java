@@ -26,7 +26,8 @@ public class MainActivity extends JMAnActivity {
         setContentView(R.layout.activity_main);
         init();
         //JMAnFunctions.startNewActivity(this,ListInventarisActivity.class);
-        JMAnFunctions.startNewActivity(this,ListPengadaanActivity.class);
+        //JMAnFunctions.startNewActivity(this,ListPengadaanActivity.class);
+        JMAnFunctions.startNewActivity(this,TesTokpedActivity.class);
         this.finish();
     }
     private void init(){

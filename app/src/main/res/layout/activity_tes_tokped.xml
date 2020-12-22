@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".TesTokpedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.thowo.jmandroidframework.component.JMAnButtonCustomVertical
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:text="jimi"
+            custom:icon="@drawable/setting_s"
+            custom:frame="@drawable/glossy_button"
+            custom:framePressed="@drawable/glossy_button_clicked"
+            custom:frameDisabled="@drawable/glossy_button_locked"
+            >
+
+        </com.thowo.jmandroidframework.component.JMAnButtonCustomVertical>
+    </RelativeLayout>
+</RelativeLayout>

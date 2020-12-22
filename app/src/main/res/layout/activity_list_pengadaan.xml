@@ -7,9 +7,17 @@
     android:gravity="center"
     tools:context=".ListPengadaanActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerPengadaan"
+        >
+
+    </RelativeLayout>
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lvPengadaan"
+        android:layout_below="@id/headerPengadaan"
         />
 </RelativeLayout>
