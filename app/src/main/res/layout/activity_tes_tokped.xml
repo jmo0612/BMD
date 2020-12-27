@@ -14,11 +14,13 @@
         <com.thowo.jmandroidframework.component.JMAnButtonCustomVertical
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            custom:text="jimi"
-            custom:icon="@drawable/setting_s"
-            custom:frame="@drawable/glossy_button"
-            custom:framePressed="@drawable/glossy_button_clicked"
-            custom:frameDisabled="@drawable/glossy_button_locked"
+            android:id="@+id/btnCustomTes"
+            custom:text2="jimi"
+            custom:icon2="@drawable/setting_s"
+            custom:fontSize2="12sp"
+            custom:iconSize2="20dp"
+            custom:textPadding="1dp"
+            custom:contentPadding="10dp"
             >
 
         </com.thowo.jmandroidframework.component.JMAnButtonCustomVertical>
